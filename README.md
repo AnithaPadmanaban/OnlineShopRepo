@@ -17,10 +17,12 @@ select * from books_flipkart;
 `
 select * from books_flipkart order by price ASC;
 `
+
 ###List all books_flipkart in highest to lowest price order
 `
 select * from books_flipkart order by price DESC;
 `
+
 ###List all books whose price is greater than 200
 `
 select * from books_flipkart where price>200;
